@@ -53,7 +53,7 @@ app.use(cors({ origin: true }));
 // Controllers
 const sendText = (req, res) => {
     // const { message, number } = req.body
-    let number = "557799364602@c.us";
+    let number = "numero@c.us";
     let message = "Olá, você está há mais de 5 horas online! Não se esqueça de deslogar do ponto ao terminar de trabalhar";
     sendMessagem(number, message)
     res.send({ status: 'Enviado mensagem!' })

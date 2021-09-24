@@ -1,0 +1,29 @@
+{
+  "name": "poc-whatsappbot",
+  "version": "1.0.0",
+  "description": "POC WhatsappBot",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenanTCastro/POC-WhatsappBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenanTCastro/POC-WhatsappBot/issues"
+  },
+  "homepage": "https://github.com/RenanTCastro/POC-WhatsappBot#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "qrcode-terminal": "^0.12.0",
+    "save": "^2.4.0",
+    "whatsapp-web.js": "^1.14.1"
+  }
+}
